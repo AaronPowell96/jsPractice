@@ -1,4 +1,3 @@
-
 const output = fizzBuzz(false);
 console.log(output);
 

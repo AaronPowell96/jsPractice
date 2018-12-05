@@ -1,6 +1,6 @@
 //emptying an array
 
-let numbers = [1, 2, 3, 4]; 
+let numbers = [1, 2, 3, 4];
 let another = numbers; //another still points to original array
 //solution 1
 // numbers = []; //new object
@@ -20,8 +20,7 @@ let another = numbers; //another still points to original array
 //solution 4
 //not recommended 
 while (numbers.length > 0)
-numbers.pop(); 
+    numbers.pop();
 
-console.log(numbers); 
-console.log(another); 
-
+console.log(numbers);
+console.log(another);
